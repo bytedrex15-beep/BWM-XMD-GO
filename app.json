@@ -23,10 +23,12 @@
     "SESSION": {
       "description": "Add your session id here",
       "required": true
+      "value":"XMDIAAAAAAAAA61Va4+iSBT9L/VVM4C8TTpZnoo2KIo07WY/lFA8lEc1FAo98b9v0O6ZTma2tzdZPhVV1L3nnHvu5Tsoq6xBS9SD6XeA6+wMCRqWpMcITIHaxjGqwRhEkEAwBY0me72zqAOYjsiICcyVJ+/yM2uYukvyjnMNJ9gq2DmXyQO4jgFuD3kWfhJQmp1S03kKCHsKbCmi0op9FNZ7ac97Oz1m2ZAnXBEe3UNnP4DrEBFmdVYmBk5RgWqYL1G/hln9NfgjYwN39cV7ic64C1OXObddhJH9HAkryws4Pd277SS144L7GvzJc5P45mv+yuxdin8hgawR5XUx6pL1jDdTiF9wOmfXySXg7vCbLClRZEWoJBnpv6z7yJJVJ6rkzL7MA2SMzgkyA8neWjS5UAS3z/ITs0dPhCqVrwFfyE/UQTj4GYfNdm+eyEHoaBUFkmMzjrw5uJq6PvoXPUx2H4Gv63evnP6L7pLudMt4o2UOwu2Z1g01OfESPXvkV8UWC86asZC28hM/D78GH2OBFkvJZaJNfolOedzzfrwQ+UXrh9uewhCrwivv5sUk+Qkfkrb+DGVb7quwflSFRrFtlsN5P+n2dj/aRIvXTgyKc7PYZE9Q8bi1tzMRt6DkWKw6y3o2d0oL8SnuS51djUyhuHj1sonRDh6VhxujE+qtCEyZ6xjUKMkaUkOSVeVtT2TGAEbnLQprRG7ygsJC8kRbLC75hOitd9keLstXEhuPLccRi1sb1kKnikTic/sBjAGuqxA1DYrmWUOqurdR08AENWD6561SA+kaFRVBiywabMvzIscyHM2Jwh/Nt0sKSQMx/lYiAsYgrqvCRmBK6haNwe2CwjO0bsqKakqsJosaNzF1kRF0eqKInKpoA8XintTLCtQQWOCBmThheUmYiNfx/4ZDVkxOMZTJRBI0U9ANhtUE05AUVpA1/nMcIn/9awxK1JG7jwf1WWYM4qxuyK5scV7B6N3k74cwDKu2JNu+DLVhgWow/bCNCMnKpBmYtSWswzQ7I23gAaYxzBv0o+CoRtE7l7chplXR4MMNY6q0stqBAfsQ6Bdtphz/qzwlLG4u7gmiO9MEY5DfL9Iiz4oCI9EsLQiT4e5wcP2BeUgRIQKzvAFToK0177I+zQxnG5xsejbTwkTREgX85PjeO3dv7n3VpCpHboWl342oo9abHFMaq2DjjxZyOytNR3V3K0rYNQ+/CQKmwNqJj8dwZmPPDbmRz8cazdK6EFG2sjiu+KA3641ax2F3fJYVNOF4di88+2YQRMe1HS+pk1Ieq7zwfKFCkkdeqf7lRXUfhmwROmch+pjsWZqPjpbqZO7MsOe63vrogKzIojx4movxMtjMxHhL9ieOuqSP9QpylMMFauiIYpWEDO0dNrS4U22+QKlg+ufkpVqlb119myr52zTP3votu73GGboNx7cq/Ws178AH09HX8YcYb+P2H0aW+uS7m1jQ40Ob5WF85i5Nipx9p+e0H2fxIcWd5+5M/TzKH8F1cD/OIYmruhh+5sUBgjGoq3awsFXG1SeZNKWxdDexBto5bIjysy1+1/HM/at1XeE5bNJBgRmnFO3g8V7BeEsgee8yoAyPETDg+jfbP6d+kAgAAA=="
     },
     "OWNER_NUMBER": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 2547123456797",
       "required": true
+      "value":"255743140476"
     },
     "DATABASE_URL": {
       "description": "PostgreSQL database URL (optional, uses SQLite if not set)",
@@ -69,7 +71,7 @@
     },
     "ANTI_CALL": {
       "description": "Anti-call feature: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ANTI_CALL_ACTION": {
@@ -84,7 +86,7 @@
     },
     "ANTI_DELETE": {
       "description": "Anti-delete feature: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ANTI_LINK": {
@@ -119,7 +121,7 @@
     },
     "AUTO_STATUS_LIKE": {
       "description": "Auto-like status: on or off",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -134,7 +136,7 @@
     },
     "STATUS_LIKE_EMOJIS": {
       "description": "Comma-separated emojis for liking status",
-      "value": "❤️,💜,💙,🤍,💛",
+      "value": "🥇",
       "required": false
     },
     "CHATBOT": {
